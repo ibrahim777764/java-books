@@ -1,0 +1,34 @@
+{
+  "name": "hello-microverse",
+  "version": "1.0.0",
+  "description": "aA hello microverse project",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "hint": "^6.1.10",
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "3.17.x"
+  },
+  "scripts": {
+    "format": "npx prettier  --write **/*.{html,js,json,md,json,yaml,yml,jsx}",
+    "format:check": "npx prettier  --check **/*.{html,js,json,md,json,yaml,yml}",
+    "lint": "npx stylelint \"**/*.css\" --fix",
+    "lint:check": "npx stylelint \"**/*.css\"",
+    "hint": "npx hint --telemetry=off ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BasitKorede/my-hello-microverse"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basitkorede/html-template/issues"
+  },
+  "homepage": "https://github.com/basitkorede/html-template#readme"
+}
